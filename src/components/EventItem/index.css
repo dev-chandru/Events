@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.event-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin-right: 70px;
+  margin-bottom: 25px;
+}
+.event-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+  background-color: transparent;
+}
+.event-image {
+  width: 320px;
+}
+.event-name {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.event-location {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 300;
+  color: #f8fafc;
+  margin-top: 5px;
+}
